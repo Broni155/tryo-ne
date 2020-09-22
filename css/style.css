@@ -1,0 +1,325 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Lato', sans-serif;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Lato', sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+}
+a, a:hover{
+    text-decoration: none;
+}
+/* global css */
+.containe{
+    width: 1140px;
+    margin: 0 auto;
+}
+.row{
+    width: 100%;
+    float: left;
+}
+.col-md-12{
+    width: 100%;
+    float: left;
+}
+
+/* header section css */
+.header{
+    width: 100%;
+    float: left;
+    background: #f6f9f9;
+}
+.header-inner{
+    padding: 15px 0px;
+    margin-left: 15%;
+}
+/* banner section css */
+.banner{
+    width: 100%;
+    float: left;
+    background: url("../img/banner.png") top no-repeat;
+    background-size: cover;
+}
+.banner-inner{
+    width: 100%;
+    float: left;
+    padding: 50px 0px;
+    margin-bottom: 15%;
+}
+.banner-inner .banner-divert{
+    text-align: center;
+}
+.banner-inner .banner-divert h1{
+    font-size: 85px;
+    font-weight: 400;
+    color: #fff;
+    margin-top: 170px;
+}
+.banner-inner .banner-divert .divert{
+    width: 35%;
+    height: 3px;
+    background: #15a4fa;
+    margin-top: 42px;
+    margin-left: 32%;
+}
+.banner-inner .banner-divert p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
+.banner-inner .banner-divert .btn {
+    background: transparent;
+    color: #fff;
+    padding: 9px 22px;
+    border: 1px solid #15a4fa;
+    border-radius: 3px;
+    transition: 1s;
+
+}
+.banner-inner .banner-divert .btn:hover{
+    background: #15a4fa;
+}
+.banner-inner .arrow{
+    text-align: center;
+    transform: translateY(187px);
+}
+
+/* simple section css */
+.simple{
+    width: 100%;
+    float: left;
+    background: #f6f9f9;
+   padding: 100px 0px 50px;
+}
+.simple-inner{
+    text-align: center;
+}
+.simple-inner h1{
+    font-size: 75px;
+    font-weight: 400;
+    color: #000;
+}
+.simple-inner p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #999;
+    margin-top: 60px;
+}
+
+/* feature section css */
+.feature{
+    width: 100%;
+    float: left;
+}
+.feature-inner{
+    width: 33.33%;
+    float: left;
+    text-align: center;
+    padding: 50px 0px 50px;
+}
+.feature-inner img{
+    margin-bottom: 20px;
+}
+.feature-inner h4{
+    font-size: 25px;
+    font-weight: 400;
+    color: #000;
+}
+.feature-inner p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #999;
+    margin-top: 20px;
+}
+
+/* portfolio section css */
+
+.portfolio{
+    width: 100%;
+    float: left;
+    background: #f6f9f9;
+    padding: 70px 0px 100px;
+}
+.portfolio-title{
+    text-align: center;
+}
+.portfolio-title h1{
+    font-size: 55px;
+    font-weight: 400;
+    color: #000;
+}
+.portfolio-title p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #999;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.mother-div{
+    margin-left: 8%;
+    
+}
+.portfolio-inner{
+    width: 33.33%;
+    float: left;
+    margin-left: 10px;
+    width: 360px;
+    height: 260px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    position: relative;
+}
+.portfolio-inner .portfolio-box{
+    width: 360px;
+    height: 260px;
+    background: rgb(21, 164, 250,.8);
+    border-radius: 3px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: none;
+}
+.portfolio-inner .portfolio-box .portfolio-hover{
+    position: absolute;
+    top: 43%;
+    left: 38%;
+}
+.portfolio-inner .portfolio-box .portfolio-hover img{
+    margin-left: 9px;
+}
+.portfolio-inner:hover .portfolio-box{
+    display: block;
+    transition: 1s;
+}
+
+/* contact us section css */
+
+.contact-us{
+    width: 100%;
+    float: left;
+    background: url("../img/contact-banner.png") top no-repeat;
+    background-size: cover;
+    padding: 50px 0px 100px;
+}
+.contact-us-title{
+    text-align: center;
+}
+.contact-us-title h1{
+    font-size: 35px;
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.contact-us-title p{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #999;
+    margin-bottom: 30px;
+}
+.contact-form{
+    text-align: center;
+    position: relative;
+}
+.form-box-inner{
+    width: 100%;
+}
+.form-box{
+    width: 30%;
+    padding: 17px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 0.5px solid #999;
+    background: no-repeat;
+}
+.form-box-inner-massege{
+    width: 100%;
+}
+.form-box-massage{
+    width: 30%;
+    padding: 17px 17px 100px 17px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 0.5px solid #999;
+    background: no-repeat;
+}
+.form-box:focus{
+    outline: none;
+}
+.form-box-massage:focus{
+    outline: none;
+}
+.checkhbox{
+    float: left;
+    margin-top: 10px;
+    margin-left: 33.5%;
+}
+.contact-form p{
+    font-size: 13px;
+    font-weight: 400;
+    color: #f1f2f3;
+    float: right;
+    position: absolute;
+    top: 104%;
+    left: 35%;
+}
+.contact-form .btn{
+    background: transparent;
+    color: #fff;
+    padding: 9px 15px;
+    border: 1px solid #15a4fa;
+    border-radius: 3px;
+    transition: 1s;
+    position: absolute;
+    right: 33.5%;
+    bottom: -50px;
+}
+.contact-form .btn:hover{
+    background: #15a4fa;
+}
+/* footer section css */
+.footer{
+    width: 100%;
+}
+.footer-left{
+    float: left;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #999;
+    margin: 20px 0px 10px 15%;
+}
+.footer-right{
+    float: right;
+    margin: 11px 15% 10px 0px;
+}
+.footer-right li{
+    list-style: none;
+    display: inline-block;
+}
+.footer-right li a{
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    list-style: none;
+    display: inline-block;
+    background: #15a4fa;
+    text-align: center;
+    border-radius: 5px;
+    margin-left: 1px;
+    text-align: center;
+}
+.footer-right li i{
+    color: #fff;
+}
